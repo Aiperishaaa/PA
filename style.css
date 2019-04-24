@@ -32,8 +32,8 @@ header video {
   /*header {
     background: url(video/duel.mp4) white no-repeat center center scroll; 
   }*/
-  header video {  
-    display: none;
+header video {  
+  display: none;
   }
 }
 .overlay img {
@@ -220,7 +220,6 @@ header video {
   margin-left: 20px;
   padding-top: 20px;
   display: block;
- 
 }
 .news .cards {
   width: 30%;
@@ -276,7 +275,6 @@ header video {
   margin-left: 20px;
   padding-top: 20px;
   display: block;
- 
 }
 .newsPA .cardsPA {
   width: 45%;
@@ -285,8 +283,8 @@ header video {
   margin-left: 40px;
 }
 .content2 {
-  width: 500px;
-  height: 550px;
+  width: 520px;
+  height: 500px;
 }
 .participantsPA .cardsPA {
   width: 30%;
@@ -294,27 +292,37 @@ header video {
   float: left;
   margin-left: 20px;
 }
-.request {
-  width: 525px;
-  height: 450px;
+#request {
+  width: 555px;
+  height: 500px;
   padding: 10px;
-  margin-left: 20px;
+  margin: 15px 0 5px 50px;
   border: 2px grey solid;
   border-radius: 0.3rem;
 }
-
 .form {
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
   width: 500px;
 }
 h4 {
-  margin-left: 240px;
+  margin-left: 260px;
 }
 .input_item {
   margin: 2px 0 0 0;
   width: 500px;
 }
-.submit_request {
-  margin-left: 180px;
-  margin-top: 35px;
+.buttonSubmit {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.buttonSubmit {
+  width:100px;
+  height: 30px;
+}
+input {
+  margin: 15px 0 0 15px;
+}
+.form-control {
+  margin: 15px 0 0 15px;
 }
