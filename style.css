@@ -78,8 +78,7 @@ header video {
   -webkit-border-radius: 0 5px 5px 0; 
   -moz-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
-  }
-
+}
 #panel:hover {
   right: 0; 
 }
@@ -119,6 +118,7 @@ header video {
   height: 600px;
   background: white;
   border: 1px white solid;
+  text-decoration: none;
 }
 .block2 {
   width:auto;
@@ -136,6 +136,17 @@ header video {
   padding-left: 100px;
   align-items: center;
   color: black;
+  text-decoration: none;
+}.blocks1:hover {
+  width:33.3%;
+  height: 100px;
+  background:rgb(127, 181, 231);
+  float: left;
+  padding-top: 23px;
+  padding-left: 100px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }
 .blocks2 {
   width:33.3%;
@@ -146,6 +157,18 @@ header video {
   padding-left: 50px;
   align-items: center;
   color: white;
+  text-decoration: none;
+}
+.blocks2:hover {
+  width:33.3%;
+  height: 100px;
+  background: rgb(127, 181, 231);
+  float: left;
+  padding-top: 23px;
+  padding-left: 50px;
+  align-items: center;
+  color: black;
+  text-decoration: none;
 }
 .blocks3 {
   width:33.4%;
@@ -156,16 +179,18 @@ header video {
   padding-left: 80px;
   align-items: center;
   color: white;
+  text-decoration: none;
 }
-.title {
-  width:auto;
+.blocks3:hover {
+  width:33.4%;
   height: 100px;
-  background: rgb(38, 37, 112);
-  color: white;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding-top: 17px;
+  background: rgb(127, 181, 231);
+  float: left;
+  padding-top: 23px;
+  padding-left: 80px;
+  align-items: center;
+  color: black;
+  text-decoration: none;
 }
 .p1 {
   padding: 20px;
@@ -183,7 +208,6 @@ header video {
   float: left;
   margin-left: 25px;
 }
-
 .about_photo2 {
   margin-left: 25px;
   float: left;
@@ -228,14 +252,27 @@ header video {
   margin-left: 40px;
 }
 .btn_more {
-  width:280px;
-  height: 40px;
+  text-decoration: none;
+  width:300px;
+  height: 30px;
   background: rgb(228, 157, 190);
-  margin-left: 50px;
+  margin-top: 50px;
   padding: 5px;
   color: black;
+  border-radius: 0.5rem;
+}
+.btn_more:hover {
+  text-decoration: none;
+  width:300px;
+  height: 30px;
+  background: rgb(228, 157, 190);
+  margin-left: 50px 0 0 100px;
+  padding: 5px;
+  color: white;
+  border-radius: 0.5rem;
 }
 .btn_more_news {
+  text-decoration: none;
   width:180px;
   height: 40px;
   background:  rgb(48, 124, 223);
@@ -245,23 +282,27 @@ header video {
   border-radius: 0.5rem;
   font-size: 50%;
 }
+.btn_more_news:hover {
+  text-decoration: none;
+  width:180px;
+  height: 40px;
+  background:  rgb(38, 37, 112);
+  margin-left: 10px;
+  padding: 5px;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 50%;
+}
+.btn_more1 {
+  margin: 100px 0 0 450px;
+  border-radius: 0.5rem;
+}
 .p3 {
   font-size: 200%;
   color: white;
   padding-top: 30px;
   margin: 50px 0 0 100px;
   font-weight: 600;
-}
-.footer {
-  width:100%;
-  height: 100px;
-  background: rgb(38, 37, 112);
-  color: white;
-  float: left;
-  text-align: center;
-  justify-content: center;
-  padding-top: 17px;
-  margin-top:25px;
 }
 .activityIT {
   color: black;
@@ -315,7 +356,6 @@ h4 {
   margin-left: 200px;
   margin-top: 40px;
 }
-
 .buttonSubmit {
   width:100px;
   height: 30px;
@@ -326,3 +366,40 @@ input {
 .form-control {
   margin: 15px 0 0 15px;
 }
+.footer {
+    width:100%;
+    height: 220px;
+    background: rgb(38, 37, 112);
+    color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding-top: 17px;
+    margin-top:0;
+  }
+  .footer1 {
+    width:50%;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+   
+  }
+  .footer2 {
+    width:50%;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+  }
+  .icon {
+    width:auto;
+    height:20px;
+    padding-right:5px;
+  }
