@@ -273,14 +273,14 @@ header video {
 }
 .btn_more_news {
   text-decoration: none;
-  width:180px;
-  height: 40px;
+  width:250px;
+  height: 50px;
   background:  rgb(48, 124, 223);
   margin-left: 10px;
   padding: 5px;
   color: white;
   border-radius: 0.5rem;
-  font-size: 50%;
+  font-size: 85%;
 }
 .btn_more_news:hover {
   text-decoration: none;
@@ -291,7 +291,7 @@ header video {
   padding: 5px;
   color: white;
   border-radius: 0.5rem;
-  font-size: 50%;
+  font-size: 85%;
 }
 .btn_more1 {
   margin: 100px 0 0 450px;
@@ -312,9 +312,9 @@ header video {
 }
 .cardsPA {
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin-left: 20px;
-  padding-top: 20px;
+  padding-top: 20px 0 0 15px;
   display: block;
 }
 .newsPA .cardsPA {
@@ -332,6 +332,10 @@ header video {
   height: 400px;
   float: left;
   margin-left: 20px;
+}
+.participantsPA {
+  width: 100%;
+  height: 2000px;
 }
 #request {
   width: 555px;
